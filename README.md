@@ -26,10 +26,10 @@ node app.js
 
 
 ### Editor Platform application repository link on github.com
-[LINK to github repo](https://github.com/00010270/Web-Tech-CW2/tree/master)   
+[LINK to github repo](https://github.com/00010270/Web-Tech-CW2)   
 
 ### Checkout Editor Platform LIVE
-[LINK to Editor Platform website]()
+[LINK to Editor Platform website](https://gregarious-living-textbook.glitch.me/)
 
 
    
