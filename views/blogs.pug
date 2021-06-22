@@ -1,0 +1,16 @@
+extends layout.pug 
+
+block content 
+    #all-blogs 
+        h1.display-5 Posts List
+        each blog in blogs 
+            .blog-wrapper 
+                .blog-t-b
+                    a.blog.title(href=`/blogs/${blog.id}`)= blog.title
+                    a.blog.body= blog.blogBody
+                .buttons
+                    a.btn.btn-light.btn-sm(href=`/blogs/${blog.id}`) Read More...
+
+        
+
+

@@ -1,0 +1,25 @@
+extends layout.pug 
+
+block content 
+    .container-create
+        h1.display-5 Start Your Post Here.
+
+        if (error)
+            p.error Invalid Input provided. Try again!
+
+        if (success) 
+            p.success Post is published.
+
+        form.form(action="/create" method="POST")
+            div.form-group
+                label Post Title 
+                input.form-control(type="text" name="title")
+
+            div.form-group
+                label Post Body 
+                textarea.form-control.form-control-lg#exampleFormControlTextarea1(name="blogBody", type="text", rows=10) 
+
+            button(type="submit" class="btn btn-success btn-lg w-25 mb-2") Save Post 
+
+
+
